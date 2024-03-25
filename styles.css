@@ -34,12 +34,13 @@ p {
   font-size: 2.5rem;
 }
 .recepcion-img {
-  height: 100vh;
+  height: max-content;
   margin: 0;
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  flex-direction: column;
 }
 
 .test-class {
