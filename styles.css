@@ -421,9 +421,9 @@ button:hover {
   background-position: center;
 }
 .window-back-2 {
-  height: 100%;
+  height: auto;
   display: flex;
-  padding: 2rem 0.5rem;
+  padding: 3rem 0.5rem;
   align-items: center;
   justify-content: center;
   max-width: 100%;
