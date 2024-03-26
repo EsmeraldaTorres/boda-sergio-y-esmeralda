@@ -239,7 +239,9 @@ p {
   text-decoration: underline;
 }
 .filtro-text {
-  font-size: 1.5rem !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.1rem;
+  padding: 1rem 1.5rem;
 }
 .display-4 {
   font-size: 3rem;
@@ -389,12 +391,20 @@ button:hover {
   width: 100%;
   position: relative;
 }
+.icon-heart {
+  color: #b88181;
+  padding: 1rem 0.2rem;
+}
 .w-30 {
   width: 30%;
 }
 .bg-white {
   background-color: #ffffff9e !important;
 }
+.bg-white-2 {
+  background-color: #ffffffc9 !important;
+}
+
 /* segundo window */
 .window-back {
   height: 60vh;
@@ -407,7 +417,21 @@ button:hover {
   -webkit-background-size: cover; /* Para Safari y Chrome (versiones antiguas) */
   -moz-background-size: cover; /* Para Firefox (versiones antiguas) */
   -o-background-size: cover; /* Para Opera (versiones antiguas) */
-  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.window-back-2 {
+  height: 100%;
+  display: flex;
+  padding: 2rem 0.5rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  background-image: url("./assets/img/img-10.jpg");
+  background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome (versiones antiguas) */
+  -moz-background-size: cover; /* Para Firefox (versiones antiguas) */
+  -o-background-size: cover; /* Para Opera (versiones antiguas) */
   background-repeat: no-repeat;
   background-position: center;
 }
