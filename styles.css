@@ -429,7 +429,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   max-width: 100%;
-  background-image: url("./assets/img/img-10.jpg");
+  background-image: url("./assets/img/img-7.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome (versiones antiguas) */
   -moz-background-size: cover; /* Para Firefox (versiones antiguas) */
@@ -505,7 +505,7 @@ a:hover {
 .last-window-back {
   height: 100vh;
   max-width: 100%;
-  background-image: url("./assets/img/img-7.jpg");
+  background-image: url("./assets/img/img-10.jpg");
   background-size: cover;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
