@@ -65,8 +65,7 @@ p {
 }
 .bg-dark-black {
   background-color: #242321;
-  background-image: linear-gradient(rgb(5 7 12 / 54%), rgb(5 7 12 / 54%)),
-    url("./assets/img/andre-jackson-IXLS59CTgDE-unsplash\ 21.35.31.jpg");
+
   background-position: center;
   background-size: cover;
 }
